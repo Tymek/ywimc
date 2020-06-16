@@ -1,9 +1,11 @@
 import React, { FunctionComponent } from 'react'
 
-const Count: FunctionComponent<{
+export type CountType = {
   count: number
-}> = (props) => {
-  return <h1>{props.count}</h1>
 }
+
+const Count: FunctionComponent<CountType> = ({ count }) => (
+  <h1>{count}</h1>
+)
 
 export default Count;
