@@ -1,9 +1,5 @@
 # YWiMC
 
-Work in Progress. React-TypesScript Monorepo Stack Example.
-
-A demonstration of how to get rid of growing clutter of config files in project root directory.
+A demonstration. Proof-of-Concept. You (probably) shouldn't structure your app in this way.
 
 `yarn && yarn test && yarn build && yarn start`
-
-After you `yarn` main folder, you can `code ./packages/kitchensink` and focus only on work proper.
