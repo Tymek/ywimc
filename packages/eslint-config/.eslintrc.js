@@ -32,6 +32,9 @@ const rules = {
   'react/prop-types': 'off',
   'react/jsx-filename-extension': [1, { extensions: ['.jsx', '.tsx'] }],
   'import/extensions': ['error', 'never'],
+  'react/jsx-one-expression-per-line': 'off',
+  'react/react-in-jsx-scope': 'off',
+  'unicorn/no-reduce': 'off',
 }
 
 module.exports = {

@@ -1,0 +1,27 @@
+{
+  "name": "@scrlk/next-config",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "utils/*",
+    "!**/__tests__/**/*"
+  ],
+  "scripts": {
+    "test": "eslint ."
+  },
+  "dependencies": {
+    "next-pwa": "^2.6.0"
+  },
+  "devDependencies": {
+    "@scrlk/eslint-config": "*"
+  },
+  "optionalDependencies": {
+    "@next/bundle-analyzer": "^9.4.4"
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": "@scrlk"
+  }
+}

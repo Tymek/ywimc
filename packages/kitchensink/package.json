@@ -3,14 +3,23 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "license": "GPL-3.0-or-later",
   "scripts": {
-    "test": "eslint . --ext .js,.jsx,.ts,.tsx,.json"
+    "dev": "cross-env NEXT_TELEMETRY_DISABLED=1 next dev",
+    "build": "cross-env NEXT_TELEMETRY_DISABLED=1 next build",
+    "start": "cross-env NEXT_TELEMETRY_DISABLED=1 next start",
+    "test": "eslint ./src --ext .js,.jsx,.ts,.tsx,.json"
   },
   "dependencies": {
-    "react": "^16.13.1"
+    "@scrlk/next-config": "*",
+    "cross-env": "^7.0.2",
+    "next": "^9.4.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   },
   "devDependencies": {
-    "@scrlk/eslint-config": "*"
+    "@scrlk/eslint-config": "*",
+    "typescript": "^3.9.5"
   },
   "optionalDependencies": {
     "@types/jest": "^24.0.0",

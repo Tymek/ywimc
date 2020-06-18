@@ -5,7 +5,9 @@
   ],
   "scripts": {
     "postinstall": "lerna bootstrap --force-local",
-    "test": "lerna run test"
+    "build": "lerna run build --stream",
+    "start": "lerna run start --stream",
+    "test": "lerna run test --stream"
   },
   "devDependencies": {
     "lerna": "^3.22.1"
